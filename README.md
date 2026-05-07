@@ -1,15 +1,22 @@
 <div align="center">
 
-# Figures for Papers
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chen-blue)](https://www.linkedin.com/in/chenliu1996/)
+<h1><code>Figures for Papers</code></h1>
+
+[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/9cb2283a-461d-44fd-bd2d-83d82f53fd17.svg)](https://oosmetrics.com/repo/ChenLiu-1996/figures4papers)
+<br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Chen-blue)](https://www.linkedin.com/in/chenliu1996/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Chen.svg?style=social)](https://x.com/ChenLiu_1996)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Chen-4a86cf?logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=3rDjnykAAAAJ&sortby=pubdate)
 
 </div>
 
+I am [Chen Liu](https://chenliu-1996.github.io/), a Computer Science PhD Candidate at Yale University.
+
 This is a centralized repository of my own **Python scripts for high-quality figures**.
 
-I am [Chen Liu](https://chenliu-1996.github.io/), a Computer Science PhD Candidate at Yale University.
+These figures appear in top venues including but not limited to *Nature Machine Intelligence*, *ICML*, and *NeurIPS*.
+
+<br>
+<br>
 
 ### Bar plots for quantitative comparison
 <img src="figure_ImmunoStruct/figures/bars_comparison_IEDB.png" width="800">
@@ -138,14 +145,18 @@ Restart the agent (or refresh its skill list) after linking. You can then invoke
 <details>
 <summary>Dispersion</summary>
 
+[![OpenReview](https://img.shields.io/badge/OpenReview-eeeeee)](https://openreview.net/forum?id=pd6A7jB5D6)
+[![ICML 2026](https://img.shields.io/badge/ICML_2026-purple)](https://openreview.net/pdf?id=pd6A7jB5D6)
 [![arXiv](https://img.shields.io/badge/arXiv-Dispersion-firebrick)](https://arxiv.org/abs/2602.00217)
 [![PDF](https://img.shields.io/badge/PDF-DADBDD)](https://arxiv.org/pdf/2602.00217)
+[![GitHub Stars](https://img.shields.io/github/stars/ChenLiu-1996/LM-Dispersion.svg?style=social\&label=Stars)](https://github.com/ChenLiu-1996/LM-Dispersion)
 ```bibtex
-@article{liu2026dispersion,
-  title={Dispersion Loss Counteracts Embedding Condensation and Improves Generalization in Small Language Models},
-  author={Liu, Chen and Sun, Xingzhi and Xiao, Xi and Van Tassel, Alexandre and Xu, Ke and Reimann, Kristof and Liao, Danqi and Gerstein, Mark and Wang, Tianyang and Wang, Xiao and others},
-  journal={arXiv preprint arXiv:2602.00217},
-  year={2026}
+@inproceedings{liu2026dispersion,
+  title={Dispersion loss counteracts embedding condensation and improves generalization in small language models},
+  author={Liu, Chen and Sun, Xingzhi and Xiao, Xi and Van Tassel, Alexandre and Xu, Ke and Reimann, Kristof and Liao, Danqi and Gerstein, Mark and Wang, Tianyang and Wang, Xiao and Krishnaswamy, Smita},
+  booktitle={International conference on machine learning},
+  year={2026},
+  organization={PMLR}
 }
 ```
 
@@ -158,7 +169,7 @@ Restart the agent (or refresh its skill list) after linking. You can then invoke
 ```bibtex
 @article{liao2025rnagenscape,
   title={RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics},
-  author={Liao, Danqi and Liu, Chen and Sun, Xingzhi and Tang, Di{\'e} and Wang, Haochen and Youlten, Scott and Gopinath, Srikar Krishna and Lee, Haejeong and Strayer, Ethan C and Giraldez, Antonio J and others},
+  author={Liao, Danqi and Liu, Chen and Sun, Xingzhi and Tang, Di{\'e} and Wang, Haochen and Youlten, Scott and Gopinath, Srikar Krishna and Lee, Haejeong and Strayer, Ethan C and Giraldez, Antonio J and Krishnaswamy, Smita},
   journal={arXiv preprint arXiv:2510.24736},
   year={2025}
 }

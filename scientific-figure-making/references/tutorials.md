@@ -1,6 +1,6 @@
 # Tutorials: End-to-End Publication Figures
 
-Implement the API described in [api.md](api.md) in your own code (constants, style, plot helpers, finalize). For real-world scripts that follow this style, see [demos.md](demos.md) (links to the [figures4papers](https://github.com/ChenLiu-1996/figures4papers) `figure_*` folders).
+Implement the API described in [api.md](api.md) in your own code (constants, style, plot helpers, finalize). This repository does not currently ship a tracked shared Python module that defines `apply_publication_style`, `make_grouped_bar`, or the other helpers directly; their signatures and behavior are specified in [api.md](api.md) and should be implemented or adapted per project. For real-world scripts that follow this style, see [demos.md](demos.md) (links to the [figures4papers](https://github.com/ChenLiu-1996/figures4papers) `figure_*` folders).
 
 If venue, approximate dimensions, or export formats are missing and they would change layout or DPI, ask before locking choices. For unattended scripts, set a non-interactive matplotlib backend (for example `matplotlib.use("Agg")`) before importing `pyplot`. Finish with `finalize_figure` as in [api.md](api.md).
 
@@ -120,7 +120,9 @@ These tutorials cover grouped bars, multi-panel trends with a legend column, and
 
 - **Radar or polar comparisons:** `figure_VIGIL` (for example `plot_comparison_radar.py`).
 - **Comparison or post-training line panels:** `figure_VIGIL`, `figure_ophthal_review`, or `figure_Cflows`, depending on layout.
-- **Scatter-heavy or schematic panels:** use helpers in [api.md](api.md); see `figure_Dispersion` or other demos in [demos.md](demos.md) as needed.
+- **Scatter-heavy or schematic panels:** `figure_Dispersion` and `figure_VIGIL` concept plots are good starting points.
+- **Bar-style quantitative comparisons:** `figure_CellSpliceNet`, `figure_ImmunoStruct`, and `figure_brainteaser`.
+- **Heatmap-focused examples:** `figure_RNAGenScape`.
 
 For more layout ideas (ultra-wide panels, legend-only axes, print-safe bars), see [common-patterns.md](common-patterns.md).
 
