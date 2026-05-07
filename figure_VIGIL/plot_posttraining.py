@@ -14,7 +14,7 @@ data_posttraining = {
         'VIGIL (Ours)',
     ],
     'colors': [
-        "#D88F8A",
+        "#BD8FB9",
         "#8BCF8B",
         "#0F4D92"
     ],
